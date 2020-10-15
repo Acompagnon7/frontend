@@ -2,6 +2,14 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <style>
+            table{
+                border: 1px solid black;
+            }
+            th, tr, td{
+                border: 1px solid black;
+            }
+        </style>
     </head>
 
     <body>
@@ -22,10 +30,15 @@
             <ol>Element de liste ordonnée</ol>
         </ul>
         <!-- Pour passer à la ligne on utilise <br>-->
-        <img src="#" alt="texte qui remplace l'image du cours">
+        <img src="#" alt="texte qui remplace l'image du cours"><br><br>
 
         <table>
-            <th></th>
+            <thead>
+                <tr>
+                    <th colspan="3">Entête du tableau</th>
+                </tr>
+            </thead>
+            <th>Titre du tableau</th>
             <tr>
                 <td>
                     Une case du tableau
@@ -34,6 +47,8 @@
                     Une case du tableau
                 </td>
             </tr>
+            <th>Titre du tableau</th>
+            <tr>
                 <td>
                     Une case du tableau
                 </td>
@@ -41,7 +56,6 @@
                     Une case du tableau
                 </td>
             </tr>
-
         </table>
     </body>
 </html>
