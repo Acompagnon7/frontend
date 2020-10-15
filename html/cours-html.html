@@ -21,7 +21,11 @@
         <h5>Titre de niveau 5</h5>
         <h6>Titre de niveau 6</h6>
 
-        <p>Un paragraphe</p>
+        <p>Un paragraphe. Ici j'ai utilisé une balise strong pour afficher ce <strong>mot</strong>
+        et j'ai mis une emphase sur <em>celui-ci</em>
+        à ne pas confonfre avec un mot en <i>italique</i>
+        strong permet de dire que le mot est important, em est que le mot est à noter.
+        </p>
         <a href="#">Lien hypertexte</a>
         <ul>
             <li>Element de liste non-ordonnée</li>
@@ -29,33 +33,41 @@
         <ul>
             <ol>Element de liste ordonnée</ol>
         </ul>
+        
         <!-- Pour passer à la ligne on utilise <br>-->
         <img src="#" alt="texte qui remplace l'image du cours"><br><br>
 
         <table>
             <thead>
-                <tr>
-                    <th colspan="2">Entête du tableau</th>
-                </tr>
+              <tr>
+                <th>Month</th>
+                <th>Savings</th>
+              </tr>
             </thead>
-            <th colspan="2">Titre du tableau</th>
-            <tr>
-                <td>
-                    Une case du tableau
-                </td>
-                <td>
-                    Une case du tableau
-                </td>
-            </tr>
-            <th colspan="2">Titre du tableau</th>
-            <tr>
-                <td>
-                    Une case du tableau
-                </td>
-                <td>
-                    Une case du tableau
-                </td>
-            </tr>
-        </table>
+            <tbody>
+              <tr>
+                <td>January</td>
+                <td>$100</td>
+              </tr>
+              <tr>
+                <td>February</td>
+                <td>$80</td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>Sum</th>
+                <th>$180</th>
+              </tr>
+            </tfoot>
+          </table>
+
+          <h3>Les balises dl, dt, dd</h3>
+          <dl>
+            <dt>Coffee</dt>
+            <dd>Black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>White cold drink</dd>
+          </dl>
     </body>
 </html>
